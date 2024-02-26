@@ -5,6 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     color: rgb(237, 237, 237);
@@ -71,12 +74,12 @@ body {
     padding: 70px 10% 0;
 }
 
-.home-content {
+.home-content1 {
+    flex-basis: 60%;
     max-width: 600px;
-
 }
 
-.home-content h3 {
+.home-content1 h3 {
     font-size: 32px;
     font-weight: 700;
     opacity: 0;
@@ -85,7 +88,7 @@ body {
 
 }
 
-.home-content h3:nth-last-of-type(2) {
+.home-content1 h3:nth-last-of-type(2) {
     margin-bottom: 30px;
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
@@ -93,11 +96,11 @@ body {
 
 }
 
-.home-content h3 span {
+.home-content1 h3 span {
     color: rgb(152, 61, 180);
 }
 
-.home-content h1 {
+.home-content1 h1 {
     font-size: 56px;
     font-weight: 700;
     margin: 3px 0;
@@ -107,12 +110,23 @@ body {
 
 }
 
-.home-content p {
+.home-content1 p {
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
 }
+.home-content2{
+    flex-basis: 35%;
+
+}
+.home-content2 img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
 
 .home-sci a {
     display: inline-flex;
